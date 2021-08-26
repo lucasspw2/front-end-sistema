@@ -3,6 +3,7 @@
 Projeto Full-stack React.js e Node.js Sistema de chamados </br>
 => Cadastro de usuário </br>
 => Projeto possui sistema de login com Jwt. </br>
+=> Senha com criptografia com Bcrypt </br>
 => Editar perfil com nome do usuário e foto com preview (avatar Padrão). </br>
 => criação de chamadas com assunto (Financeiro, visita tecnica e suporte). 3 status (Em Aberto, Processando, Atendido). </br>
 => Modal com *mais informações sobre o chamado. 
