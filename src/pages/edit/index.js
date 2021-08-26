@@ -1,4 +1,4 @@
-import {useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import {useParams, useHistory} from 'react-router-dom';
 import api from '../../services/api';
 import {FiPlus} from 'react-icons/fi';
@@ -26,7 +26,8 @@ const [cliente, setCliente] = useState([]);
 
  useEffect(() =>{
 
-    async function getInfoApi(){
+    
+  async function getInfoApi(){
         const { data } = await api.get(`/edit/${id}`);
         setCliente(data.Cliente);
         setAssunto(data.assunto);
